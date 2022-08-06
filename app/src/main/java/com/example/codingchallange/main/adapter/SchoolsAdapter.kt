@@ -5,7 +5,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.codingchallange.databinding.ItemSchoolsBinding
-import com.example.codingchallange.details.model.SchoolDetails
+import com.example.codingchallange.main.model.model.SchoolDetails
 import com.example.codingchallange.main.model.Schools
 import com.example.codingchallange.main.viewholder.SchoolsVH
 

@@ -1,7 +1,7 @@
 package com.example.codingchallange.main.repository
 
 import com.example.codingchallange.api.ApiService
-import com.example.codingchallange.details.model.SchoolDetails
+import com.example.codingchallange.main.model.model.SchoolDetails
 import com.example.codingchallange.main.model.Schools
 import javax.inject.Inject
 

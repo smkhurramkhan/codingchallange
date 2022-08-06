@@ -1,6 +1,6 @@
 package com.example.codingchallange.api
 
-import com.example.codingchallange.details.model.SchoolDetails
+import com.example.codingchallange.main.model.model.SchoolDetails
 import com.example.codingchallange.main.model.Schools
 import retrofit2.http.GET
 import retrofit2.http.POST

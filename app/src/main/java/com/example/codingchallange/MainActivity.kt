@@ -5,7 +5,7 @@ import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import com.example.codingchallange.databinding.ActivityMainBinding
-import com.example.codingchallange.details.model.SchoolDetails
+import com.example.codingchallange.main.model.model.SchoolDetails
 import com.example.codingchallange.main.adapter.SchoolsAdapter
 import com.example.codingchallange.main.model.Schools
 import com.example.codingchallange.main.viewmodel.SchoolsViewModel
@@ -27,11 +27,12 @@ class MainActivity : AppCompatActivity() {
         mainBinding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(mainBinding.root)
 
-        getAllSchools()
+        getSchoolDetails()
 
     }
 
-    private fun getAllSchools() {
+
+    private fun getSchoolDetails() {
         viewModel.getSchoolDetails().observe(this) {
             when (it.status) {
                 Status.LOADING -> {
@@ -46,7 +47,7 @@ class MainActivity : AppCompatActivity() {
                     schoolsAdapter = SchoolsAdapter(
                         context = this,
                         mSchools = schoolDetails,
-                        onClick = {position->
+                        onClick = { position ->
                             Toast.makeText(
                                 this,
                                 schoolDetails?.get(position)?.school_name,
@@ -64,4 +65,6 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
+
+
 }

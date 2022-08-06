@@ -1,3 +1,3 @@
-package com.example.codingchallange.details.model
+package com.example.codingchallange.main.model.model
 
 class SchoolDetails : ArrayList<SchoolDetailsItem>()
