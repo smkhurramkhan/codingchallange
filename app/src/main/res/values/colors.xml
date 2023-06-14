@@ -7,4 +7,15 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="yelllow">#FFC107</color>
+    <color name="yelllow_dark">#B68B05</color>
+    <color name="theme_inverse">#141414</color>
+
+    <color name="textColor">#D6D6D6</color>
+    <color name="secondaryColor">#0F3D3E</color>
+    <color name="white_light">#D3D3D3</color>
+
+    <color name="shimmerDark">#D3D3D3</color>
+    <color name="success">#E643A047</color>
+    <color name="danger">#E6CD2121</color>
 </resources>

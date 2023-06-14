@@ -1,3 +1,18 @@
 <resources>
-    <string name="app_name">CodingChallange</string>
+    <string name="app_name">Quiz App</string>
+    <string name="high_score">High Score</string>
+    <string name="start_new_game">Start New game</string>
+    <string name="question_1_of_2_50">Question 1 of 2 (50%)</string>
+
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="quiz_result">Quiz Result</string>
+    <string name="prize_image">prize image</string>
+    <string name="your_score">Your Score</string>
+    <string name="share_results">Share Results</string>
+    <string name="return_to_feed">Home\n</string>
+    <string name="question_progress">Question %1$s/%2$s</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="better_luck_next_time">Better luck next time!</string>
+
 </resources>

@@ -1,18 +1,14 @@
 package com.example.codingchallange.api
 
-import com.example.codingchallange.main.model.model.SchoolDetails
-import com.example.codingchallange.main.model.Schools
+import com.example.codingchallange.roomdb.entity.QuizEntity
+import retrofit2.Response
 import retrofit2.http.GET
-import retrofit2.http.POST
 
 
 interface ApiService {
 
-    @GET(Constants.Schools)
-    suspend fun getAllSchools(): Schools
-
-    @GET(Constants.SchoolDetails)
-    suspend fun getSchoolDetails(): SchoolDetails
+    @GET(Constants.GET_QUIZ)
+    suspend fun getQuizQuestions(): Response<QuizEntity>
 
 
 }
